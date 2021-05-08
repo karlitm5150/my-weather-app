@@ -89,4 +89,4 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
 
-searchCity("Bergen");
+searchCity("San Diego");
