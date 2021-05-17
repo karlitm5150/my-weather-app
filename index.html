@@ -29,24 +29,26 @@
                     </div>
                 </div>
             </form>
-
-            <h2 id="city">
-                San Diego
-            </h2>
-            <p id="date"></p>
-            <p id="description"></p>
-            <div class="row">
-                <div class="col-6">
-                    <h1 id="clearfix weather-temperature">
-                        <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" id="icon" class="float-left"/>
-                        <div class="float-left">
-                            <strong id="temperature"></strong
-                                ><span class="units"></span
-                                        ><a href="#" id="celsius-link" class="active">&#730C</a> | 
-                                        <a href="#" id="fahrenheit-link">&#730F</a></span>
-                        </div>
-                    </div>
-                </div> 
+            <div class="overview">
+                <h1 id="city"></h1>
+                <ul>
+                    <li>Last updated: <span id="date"></span></li>
+                    <li id="description"></li>
+                </ul>
+            </div>
+     <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                </div>
+              </div>
+            </div> 
 
                 <div class="col-6">
               <ul>
